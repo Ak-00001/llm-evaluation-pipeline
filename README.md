@@ -207,7 +207,7 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Ak-00001/llm-evaluation-pipeline.git
 cd llm-evaluation-pipeline
 ```
 
