@@ -1,0 +1,20 @@
+prompt,id,question,expected_answer,actual_answer,exact_match,semantic_similarity,llm_judge
+prompt_a,1,What is 1 + 1?,2,2,True,1.0,PASS
+prompt_a,2,What is the capital of Germany?,Berlin,Berlin.,True,0.9744781255722046,PASS
+prompt_a,3,What language is primarily used for Android development?,Kotlin,The primary language for Android development today is **Kotlin** (though Java is still widely used). Kotlin is now the officially recommended language for building Android apps.,False,0.3875415325164795,PASS
+prompt_a,4,What does HTML stand for?,Hypertext Markup language,HTML stands for **HyperText Markup Language**.,False,0.6453641653060913,PASS
+prompt_a,5,What is full form of LLM?,Large Language Model,"**LLM** most commonly stands for **Large Language Model** (e.g., GPT‑4, Claude).  
+(It can also mean *Legum Magister*—Master of Laws—in an academic context.)",False,0.3926389217376709,PASS
+prompt_a,6,How much eggs in 1 dozen?,12,A dozen eggs equals 12 eggs.,False,0.4561366140842438,PASS
+prompt_b,1,What is 1 + 1?,2,"2
+
+Adding one and one results in two.",False,0.4933737516403198,PASS
+prompt_b,2,What is the capital of Germany?,Berlin,"Berlin is the capital of Germany.
+
+Berlin is the largest city in Germany and has served as the country’s capital since the reunification in 1990.",False,0.6388399004936218,PASS
+prompt_b,3,What language is primarily used for Android development?,Kotlin,The primary language used for Android development today is **Kotlin**. It’s officially endorsed by Google and has become the preferred choice over Java for most new projects.,False,0.49235373735427856,PASS
+prompt_b,4,What does HTML stand for?,Hypertext Markup language,HTML stands for **HyperText Markup Language**.,False,0.6453641653060913,PASS
+prompt_b,5,What is full form of LLM?,Large Language Model,"**LLM** most commonly stands for **Large Language Model** (advanced AI models that generate human‑like text).  
+*It can also refer to “Master of Laws” (Legum Magister) in a legal education context.*",False,0.37660905718803406,PASS
+prompt_b,6,How much eggs in 1 dozen?,12,"12 eggs.  
+A dozen is defined as 12 items, so a dozen eggs equals twelve eggs.",False,0.4183743894100189,PASS

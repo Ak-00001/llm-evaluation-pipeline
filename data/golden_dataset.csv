@@ -1,0 +1,7 @@
+id,question,expected_answer
+1,"What is 1 + 1?","2"
+2,"What is the capital of Germany?","Berlin"
+3,"What language is primarily used for Android development?","Kotlin"
+4,"What does HTML stand for?","Hypertext Markup language"
+5,"What is full form of LLM?","Large Language Model"
+6,"How much eggs in 1 dozen?","12"
